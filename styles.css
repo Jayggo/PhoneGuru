@@ -1,0 +1,90 @@
+/*---------------------NAV---------------------*/
+
+
+.navbar .navbar-brand:hover{
+
+    opacity: .4;
+
+}
+
+/*---------------------ACCORDION---------------------*/
+
+.card-body{
+
+
+    background: darkgrey;
+}
+
+.card{
+
+    background: #858585 !important;
+
+}
+
+
+
+/*---------------------MEDIA QUERIES---------------*/
+
+@media screen and (max-width: 991px){
+
+    main img{
+
+        max-height:500px;
+        
+    }
+
+    main section p{
+
+        font-size: 0.7em;
+
+    }
+
+    #main-navigation ul li{
+
+        border-bottom: 1px solid grey;
+
+    }
+
+}
+
+@media screen and (max-width: 575px){
+
+
+    header form input{
+
+        display: none !important;
+
+    }
+
+    footer h3{
+
+        font-size: 1.2em;
+
+    }
+
+    footer ul li a{
+
+        font-size: 0.7em;
+
+    }
+
+    main h2{
+
+        font-size: 1em;
+
+    }
+
+    main p{
+
+        font-size: 0.5em !important;
+
+    } 
+
+    footer p {
+
+        font-size: 0.6em !important;
+
+    }
+
+
+}
