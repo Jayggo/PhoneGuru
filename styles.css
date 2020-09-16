@@ -21,6 +21,24 @@
 
 }
 
+/*----------------HOVER DE TARJETAS--------------------*/
+
+.may-like .card img:hover{
+
+    opacity: .7 !important;
+    cursor: pointer;
+    transition: all .7s;
+}
+
+.main-container img:hover {
+
+    opacity: .7 !important;
+    cursor: pointer;
+    transition: all .7s;
+
+}
+
+
 
 
 /*---------------------MEDIA QUERIES---------------*/
